@@ -1,0 +1,44 @@
+/* Alisha Staggs
+   09/05/2025
+   staggs.css */
+
+header, main, nav{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.JT{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li{
+  
+  font-family: 'Courier New', Courier, monospace;
+  color:crimson;
+}
+
+#wrapper{
+  background-color: rgb(241, 34, 6);
+  color: rgb(44, 7, 7);
+  margin: 0 auto;
+}
+
+P{
+  text-align: center;
+}
+
+.ranken{
+  margin-left: 900px;
+  color: navy;
+}
+
+header{
+  color: crimson;
+  background-color: black;
+}
+
+nav{
+  color:crimson;
+  background-color: black;
+}
