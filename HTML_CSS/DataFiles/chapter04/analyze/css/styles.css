@@ -1,35 +1,73 @@
+/* 	
+	Student Name: Alisha Staggs
+	File Name: styles.css
+	Date: 09/08/2025
+*/
+
+header, footer, main{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 #css1, #css2, #css3 {
-    width: 40%;
+    width: 30%;
     float: left;
-    padding: 0 1%;
-}footer {
+    padding: 0 1%;}
+
+    /*footer*/
+    
+footer {
     text-align: center;
     font-size: 0.85em;
     color: #47476b;
     padding: 1% 0;
     border-top: 3px solid #47476b;
-}body {
-    padding 2%;
-    background-color: #d1d1e0;
-} main {
+    float: left;}
+
+    /*body*/
+    
+body {
     padding: 2%;
-    font-family: Geneva, Arial, sans-serif;
-} header h1 {
+    background-color: #d1d1e0;}
+
+    /*header*/
+    
+header h1 {
     font-size: 3em;
     font-family: Georgia, Times, serif;
     padding: 3%;
     color: #47476b;
-} nav {
+    text-align: center;} 
+
+    /*nav*/
+
+nav {
     background-color: #47476b;
-} nav ul { margin: 0;} nav li {
-    display: block;
-    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
-} nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; }
+    text-decoration: none;}
+    
+nav ul {
+    margin: 0;}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;}
+
+nav li a {
+    display: inline-block; color: #e3eaf8; padding: 0.5em 2em; }
+
+    /*main*/
+
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    overflow: auto;}
 
 main p {
-    font-size: 1.25em;
-}
+    font-size: 1.25em;}
+
 main h3 {
     padding-top: 2%;
-    font-size: 2em;
-}
+    font-size: 2em;}
