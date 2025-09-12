@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Alisha Staggs
+	File Name: style.css
+	Current Date: 09/12/2025
 */
 
 /* CSS reset */
@@ -38,6 +38,7 @@ nav {
 
 nav ul {
     text-align: center;
+    list-style-type: none;
 }
 
 nav li {
@@ -45,6 +46,7 @@ nav li {
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
     padding: 3%;
+    display: inline-block;
 }
 
 nav li a {
@@ -64,10 +66,34 @@ main p {
     font-size: 1.25em;
 }
 
+.btn{
+    background-color: #375f1b;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+a .btn{
+    color: #ebf7e3;
+    font-size: 1.25em;
+    display: block;
+    text-decoration: none;
+}
+
+.corner{
+    border-radius: 12px;
+}
+
 /* Style rules for footer content */
 footer {
     text-align: center;
     font-size: 0.85em;
     color: #fff;
     padding: 1% 0;
+}
+
+.tablet-desktop{
+    visibility: hidden;
 }

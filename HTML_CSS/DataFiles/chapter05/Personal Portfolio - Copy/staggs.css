@@ -1,0 +1,61 @@
+/* Alisha Staggs
+   09/05/2025
+   staggs.css */
+
+header, main, nav{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+header{
+  color: crimson;
+  background-color: black;
+}
+
+nav{
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+a:link{
+  background-color: rgb(236, 8, 8);
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-right: 30px;
+}
+
+a:hover{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+.JobTitles{
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+li{
+  
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+#wrapper{
+  background-color: rgb(236, 8, 8);
+  padding-bottom: 380px;
+}
+
+P{
+  text-align: center;
+}
+
+img{
+  margin-left: 46.5%;
+  padding-top: 5%;
+  width: 20px;
+  height: 20px;
+}
