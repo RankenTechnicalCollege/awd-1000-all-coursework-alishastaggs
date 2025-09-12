@@ -19,7 +19,7 @@ nav{
 }
 
 a:link{
-  background-color: rgb(236, 8, 8);
+  background-color: rgb(227, 27, 35);
   text-decoration: none;
   font-size: 1.5em;
   padding-right: 30px;
@@ -45,8 +45,8 @@ li{
 }
 
 #wrapper{
-  background-color: rgb(236, 8, 8);
-  padding-bottom: 380px;
+  background-color: rgb(227, 27, 35);
+  padding-bottom: 900px;
 }
 
 P{
