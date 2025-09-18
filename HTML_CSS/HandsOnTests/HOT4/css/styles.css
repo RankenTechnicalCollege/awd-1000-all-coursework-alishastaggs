@@ -1,0 +1,49 @@
+/*Global Styles*/
+
+header, main, nav, footer, body{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: gray;
+}
+
+/*Header Styles*/
+
+header{
+  background-color: #0a2342;
+  color: white;
+  padding: 1px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Main Styles*/
+.about-section{
+  float:left
+}
+
+.Nacho-Fries, .Baja-Blast, .CBARB{
+border: 0;
+padding: 50%;
+margin: 50%;
+}
+
+span{
+  color:purple;
+  font-weight: bold;
+}
+
+/*Footer Styles*/
+footer{
+  clear:left;
+  background-color: #0a2342;
+  color: white;
+  text-align: center;
+}
