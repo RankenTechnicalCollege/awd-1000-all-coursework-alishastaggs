@@ -1,0 +1,24 @@
+table, th, td{
+  border: 1px, solid black;
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 5px;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+td{
+  text-align: left;
+}
+
+#YOS, #YOS1, #YOS2, #YOS3, #YOS4, #YOS5, #YOS6, #YOS7, #YOS8{
+  text-align: right;
+}
+
+#hl{
+text-align: left;
+}
