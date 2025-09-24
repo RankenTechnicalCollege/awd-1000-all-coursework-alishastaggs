@@ -1,0 +1,46 @@
+/*Alisha Staggs 09/24/2025*/
+
+/*ffe5dc (body background color)
+fd4d0c (table border color)
+792101 (box shadow color)
+a22c02 (table data border color)
+fe9772 (odd rows background color).*/
+
+.odd{
+  background-color: #fe9772;
+}
+
+body{
+font-family: sans-serif;
+background-color: #ffe5dc;
+}
+
+table{
+  border: 5px, solid #fd4d0c;
+  box-shadow: 5px 10px 10px #792101;
+}
+
+table, th, td, tbody{
+  border-collapse: collapse;
+  width: 850px;
+}
+
+thead, th{
+  color: white;
+  background-color: #a22c02;
+  border: 1px, solid white;
+  padding: 2%
+}
+
+caption{
+  color: #a22c02;
+  font-weight: bold;
+  font-size: larger;
+}
+
+td, tbody{
+  border: 1px, solid #a22c02;
+  border-collapse: collapse;
+  padding: 1%;
+  padding-left: 2%;
+}
