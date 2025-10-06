@@ -67,7 +67,7 @@ main p{
 }
 
 #piano, #guitar, #violin{
-  margin: 0.2%
+  margin: 0.2%;
 }
 
 #info{
@@ -127,7 +127,7 @@ footer a{
 }
 
 /*Media Query for Tablet Viewport*/
-@media screen and(min-width: 550px), print {
+@media screen and (min-width: 550px), print {
   .tab-desk{
     display: block;
   }
@@ -154,7 +154,7 @@ footer a{
   }
 
   nav li a{
-    padding: 0.25em, 0.5em;
+    padding: 0.25em 0.5em;
   }
 
   /*Tablet Viewport: Style rule for map*/
@@ -163,12 +163,10 @@ footer a{
     width: 500px;
     height: 450px;
   }
-
 }
-
 /*Media Query for Desktop Viewport*/
 
-@media screen and(min-width:769px), print {
+@media screen and (min-width:769px), print {
 
   /*Desktop Viewport: Style rule for header*/
 
@@ -179,7 +177,7 @@ footer a{
   /*Desktop Viewport: Style rules for nav area*/
 
   nav li a{
-    padding: 0.5em, 1.5em;
+    padding: 0.5em 1.5em;
   }
 
   nav li a:hover{
@@ -200,10 +198,10 @@ footer a{
   #piano, #guitar, #violin{
     width: 29%;
     float: left;
-    margin: 0, 2%;
+    margin: 0% 2%;
   }
-
 }
+
 
 @media print{
   body{
