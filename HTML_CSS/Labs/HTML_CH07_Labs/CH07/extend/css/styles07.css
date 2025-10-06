@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Alisha Staggs
+Date: 10/06/2025
+File Name: styles07.css
 */
 
 /* CSS Reset */
@@ -23,7 +23,7 @@ header {
 	background-color: #628c45;
 	color: #dfe7c4;
 	padding: 2%;
-    text-align: center;
+  text-align: center;
 }
 
 /* Style rules for main content  */
@@ -38,4 +38,10 @@ aside {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+
+article{
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 2px solid #628c45;
 }
