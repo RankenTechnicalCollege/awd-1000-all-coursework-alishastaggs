@@ -10,21 +10,9 @@ body, header, nav, main, footer, img, h1, h3, ul{
   border: 0;
 }
 
-/* Style rules for body and images*/
-
-body{
-  background-color: #f6eee4;
-}
-
-img{
-  max-width: 100%;
-  display: block;
-}
-
 /*Style rules for mobile viewport*/
 
-
-/*Style rules to show moblie class and hide tab-desk class*/
+/*Style rules to show mobile class and hide tab-desk class*/
 
 .mobile{
   display: block;
@@ -36,18 +24,23 @@ img{
 
 /*Style rules for header area*/
 
-.mobile h1{
-padding: 2%;
-text-align: center;
-font-family: 'Emblema', sans-serif;
-}
-
+.mobile h1,
 .mobile h3{
-padding: 2%;
-text-align: center;
-font-family: 'Lora', sans-serif;
-
+  padding: 2%;
+  text-align: center;
 }
+
+/* Style rules for body and images*/
+
+body{
+  background-color: #f6eee4;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
 /*Style rules for navigation*/
 
 nav{
@@ -55,17 +48,19 @@ nav{
 }
 
 nav ul{
-  list-style: none;
+  list-style-type: none;
   text-align: center;
 }
 
 nav li{
+  display: block;
   font-size: 1.5em;
   font-family: Geneva, Arial, sans-serif;
   font-weight: bold;
+  border-top: 0.5px solid, #f6eee4;
 }
 
-nav li{
+nav li a{
   display:block;
   color: #f6eee4;
   padding-top: .5em;
@@ -73,64 +68,72 @@ nav li{
   padding-left: 2em;
   padding-right: 2em;
   text-decoration: none;
-  border-top: 0.5px #f6eee4;
 }
 
 /*Style rules for main content*/
- main{
-  padding: 2%;
+
+main{
+  padding:2%;
   font-family: 'Lora', sans-serif;
- }
+}
 
- main p{
+main p{
   font-size: 1.25em;
- }
+}
 
- main h3{
-  padding: 2%;
- }
+main h3{
+  padding-top: 2%;
+}
 
- main ul{
+main ul{
   list-style-type: square;
- }
+}
 
- .link{
+.link{
   color: #4d3319;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
- }
+}
 
- .action{
+.action{
   font-size: 1.75em;
   font-weight: bold;
   text-align: center;
- }
+}
 
- .round{
+.round{
   border-radius: 6px;
- }
+}
 
- #info ul{
+#info ul{
   margin-left: 10%;
- }
+}
 
- #contact{
+#contact{
   text-align: center;
- }
+}
 
- .tele-link{
+.tel-link{
   background-color: #2a1f14;
   padding: 2%;
   width: 80%;
-  margin: 0 auto 0 auto;
- }
+  margin: 0% auto;
+}
 
- .tele-link a{
+.tel-link a{
   color: #f6eee4;
   text-decoration: none;
   font-weight: bold;
- }
+}
+
+.mobile h1{
+  font-family: 'Emblema', sans-serif;
+}
+
+.mobile h3{
+  font-family: 'Lora', sans-serif;
+}
 
 /* Style Rules for main content*/
 
@@ -173,12 +176,9 @@ main ul{
 footer{
   text-align: center;
   font-size: 0.85em;
-  background-color: #f6eee4;
-  color: black;
-  padding-left: 0%;
-  padding-right: 0%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  background-color: #2a1f14;
+  color: #f6eee4;
+  padding: 1% 0%;
 }
 
 footer a{
