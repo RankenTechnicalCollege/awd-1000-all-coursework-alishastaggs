@@ -1,4 +1,5 @@
-/* CSS Reset*/
+/* CSS Reset
+CH06*/
 
 body, header, nav, main, footer, img, h1, ul{
   margin: 0;
@@ -11,6 +12,9 @@ img{
   max-width: 100%;
   display: block;
 }
+
+/*Style rules for mobile viewport*/
+
 
 /*Hide tab-desk class*/
 
@@ -39,13 +43,18 @@ nav ul{
   text-align: center;
 }
 
+nav li{
+  display: block;
+  font-size: 2em;
+  border-top: 1px solid #e5e9fc;
+}
+
 nav li a{
   display: block;
   color: #fff;
   text-align: center;
   padding: 0.5em 1em;
   text-decoration: none;
-  border-top: 1px solid #e5e9fc;
 }
 
 /* Style rules for main content*/
@@ -67,7 +76,7 @@ main p{
 }
 
 #piano, #guitar, #violin{
-  margin: 0.2%;
+  margin: 0.2%
 }
 
 #info{
@@ -84,25 +93,27 @@ main p{
   border-radius: 8px;
 }
 
-#contact .email-link{
+#contact{
   text-align: center;
 }
 
-.tel-link {
+.tel-link{
   background-color: #373684;
   padding: 2%;
   margin: 0 auto;
   width: 80%;
   text-align: center;
   border-radius: 5px;
-  color: #fff !important;
+}
+
+.tel-link a{
+  color: #fff;
   text-decoration: none;
   font-size: 1.5em;
   display: block;
 }
 
-
-#contact a{
+#contact a.email-link{
   color: #4645a8;
   text-decoration: none;
   font-weight: bold;
@@ -139,6 +150,14 @@ footer a{
   span.tab-desk{
     display: inline;
   }
+
+  .tel-link a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+
 
   /*Tablet Viewport: Style rules for nav area*/
 
