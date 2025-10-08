@@ -38,7 +38,7 @@ header h1 {
   font-family: 'DM-Serif-Display', sans-serif;
 }
 
-/* Style rules doe navigation area*/
+/* Style rules for navigation area*/
 nav{
   background-color: #373684;
 }
@@ -50,11 +50,16 @@ nav ul{
 
 nav li{
   display: block;
+  font-size: 2em;
+  border-top: 1px solid #e5e9fc;
+}
+
+nav li a{
+  display: block;
   color: #fff;
   text-align: center;
   padding: 0.5em 1em;
   text-decoration: none;
-  border-top: 1px solid #e5e9fc;
 }
 
 
@@ -98,7 +103,7 @@ main p{
   border-radius: 8px;
 }
 
-#contact .email-link{
+#contact{
   text-align: center;
 }
 
@@ -111,14 +116,14 @@ main p{
   border-radius: 5px;
 }
 
-.tel-link{
+.tel-link a{
   color: #fff;
   text-decoration: none;
   font-size: 1.5em;
   display: block;
 }
 
-#contact a{
+#contact a.email-link{
   color: #4645a8;
   text-decoration: none;
   font-weight: bold;
