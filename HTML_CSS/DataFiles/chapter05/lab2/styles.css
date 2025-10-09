@@ -19,7 +19,7 @@ body, header, nav, main, footer, img, h1, h3, ul{
 }
 
 .tab-desk{
-  visibility: hidden;
+  display: none;
 }
 
 /*Style rules for header area*/
@@ -57,7 +57,7 @@ nav li{
   font-size: 1.5em;
   font-family: Geneva, Arial, sans-serif;
   font-weight: bold;
-  border-top: 0.5px solid, #f6eee4;
+  border-top: 0.5px solid #f6eee4;
 }
 
 nav li a{
@@ -118,7 +118,7 @@ main ul{
   background-color: #2a1f14;
   padding: 2%;
   width: 80%;
-  margin: 0% auto;
+  margin: 0 auto;
 }
 
 .tel-link a{
@@ -128,7 +128,7 @@ main ul{
 }
 
 .mobile h1{
-  font-family: 'Emblema', sans-serif;
+  font-family: 'Emblema One', sans-serif;
 }
 
 .mobile h3{
