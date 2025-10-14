@@ -49,6 +49,11 @@ nav{
   background-color: #004d40;
 }
 
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
 nav li{
   display: block;
   font-size: 1.5em;
@@ -111,4 +116,68 @@ footer p{
 footer{
     padding: 3%;
     background-color: #004d40;
+}
+
+/*Style rules for tablet viewport*/
+
+@media screen and (min-width: 550px), print {
+
+  main{
+    padding: 8%;
+    font-size: 1.5em;
+  }
+
+  .link{
+    width: 65%;
+  }
+
+  /*Tablet Viewport: Style rules for nav area*/
+
+  nav li{
+    display: inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid #e5e9fc;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  nav li:last-child{
+    border-right: none;
+  }
+
+
+  nav li a{
+    padding: 0.25em 0.5em;
+  }
+}
+
+/*Sty;e rules for desktop viewport*/
+
+@media screen and (min-width: 769px) {
+  
+  /*Desktop Viewport: Style rule for header*/
+
+  header{
+    padding: 4%;
+  }
+
+  /*Desktop Viewport: Style rules for nav area*/
+
+  nav li a{
+    padding: 0.5em 1.5em;
+  }
+
+  nav li a:hover{
+    color: #004d40;
+    background-color: #e5e9fc;
+  }
+
+}
+
+@media print{
+  body{
+    background-color: #fff;
+    color: #000;
+  }
 }
