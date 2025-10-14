@@ -1,0 +1,189 @@
+/* Alisha Staggs
+   10/10/2025
+   staggs.css */
+
+/*CSS Reset*/
+
+header, main, nav, h1, h2, h3, ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/*Style rules for images*/
+
+img{
+  height: 10px;
+  width: 10px;
+  margin-left: 45%;
+  margin-right: -3px;
+}
+
+/*Style rules for mobile viewport*/
+
+/*Style rules for header content*/
+
+header {
+  color: rgb(227, 27, 35);
+  background: radial-gradient(circle, black, rgb(227, 27, 35));
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Style rules for nav*/
+
+nav{
+  background-color: rgb(63, 3, 3);
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  display: block;
+  font-size: 1.5em;
+  border: 1px solid white;
+}
+
+nav li a{
+  padding: 0.5em 1em;
+  display: block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Style rules for main content*/
+
+main{
+  background-color: rgb(227, 27, 35);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 2%;
+}
+
+.link{
+  background: radial-gradient(circle, rgb(227, 27, 35), black);
+  border: 2px solid black;
+  padding: .7em;
+  border-radius: 1em;
+  width: auto;
+  text-align: center;
+}
+
+.link a{
+  text-decoration: none;
+  color: white;
+}
+
+.resume{
+  margin-left: 5%;
+}
+
+.ranken{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+}
+
+.ranken:visited{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+}
+
+.ranken, img{
+  display: inline-block;
+}
+
+
+/*Style rules for footer*/
+
+footer{
+  background: linear-gradient(to top, black, rgb(227, 27, 35));
+  padding: 1%;
+}
+
+footer p{
+  color: white;
+  opacity: 30%;
+  text-align: end;
+}
+
+/*Style rules for tablet viewport*/
+
+@media screen and (min-width: 550px), print {
+
+  main{
+    padding: 8%;
+    font-size: 1.5em;
+  }
+
+  .link{
+    width: 65%;
+  }
+
+  img{
+    width: 20px;
+    height: 20px;
+  }
+  /*Tablet Viewport: Style rules for nav area*/
+
+  nav li{
+    display: inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid #e5e9fc;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  nav li:last-child{
+    border-right: none;
+  }
+
+
+  nav li a{
+    padding: 0.25em 0.5em;
+  }
+
+  /*Tablet Viewport: Style rule for map*/
+
+  .map{
+    width: 500px;
+    height: 450px;
+  }
+}
+
+/*Sty;e rules for desktop viewport*/
+
+@media screen and (min-width: 769px) {
+  
+  /*Desktop Viewport: Style rule for header*/
+
+  header{
+    padding: 2%;
+  }
+
+  /*Desktop Viewport: Style rules for nav area*/
+
+  nav li a{
+    padding: 0.5em 1.5em;
+  }
+
+  nav li a:hover{
+    color: #6b0000;
+    background-color: #e5e9fc;
+  }
+
+}
+
+@media print{
+  body{
+    background-color: #fff;
+    color: #000;
+  }
+}

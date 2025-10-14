@@ -1,0 +1,183 @@
+/*
+    Name: Alisha Staggs
+    Date: 09/15/2025
+    File: styles.css
+*/
+
+/*CSS Reset*/
+
+body, header, nav, main, footer, img, h1, h2, ul{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*style rule for images*/
+
+img {
+    border-radius: 0.5em;
+    max-width: 100%;
+}
+
+/*Style rules for mobile viewport*/
+
+/*Hide tab-desk class*/
+
+.tab-desk{
+    display: none;
+}
+
+/*Style rules for header content*/
+
+header{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background: radial-gradient(circle, #004d40, black);
+}
+
+header h2{
+    font-size: .7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/*Style rules for nav*/
+
+nav{
+  background-color: #004d40;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li{
+  display: block;
+  font-size: 1.5em;
+  border-top: 1px solid #7c680c;
+}
+
+nav li a{
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Style rules for main content*/
+
+main{
+    padding: 2%;
+    background-color: #7c680c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+    background-color: #e0f2f1;
+    border: 2px solid #004d40;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.link{
+    background: radial-gradient(circle, #004d40, black);
+    border: 2px solid #004d40;
+    padding: .7em;
+    border-radius: 1em;
+    width: auto;
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+.list{
+    margin-left: 3%;
+}
+
+/*Style rules for footer*/
+
+footer p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 20%;
+}
+
+footer{
+    padding: 3%;
+    background-color: #004d40;
+}
+
+/*Style rules for tablet viewport*/
+
+@media screen and (min-width: 550px), print {
+
+  main{
+    padding: 8%;
+    font-size: 1.5em;
+  }
+
+  .link{
+    width: 65%;
+  }
+
+  /*Tablet Viewport: Style rules for nav area*/
+
+  nav li{
+    display: inline-block;
+    font-size: 1.5em;
+    border-right: 1px solid #e5e9fc;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  nav li:last-child{
+    border-right: none;
+  }
+
+
+  nav li a{
+    padding: 0.25em 0.5em;
+  }
+}
+
+/*Sty;e rules for desktop viewport*/
+
+@media screen and (min-width: 769px) {
+  
+  /*Desktop Viewport: Style rule for header*/
+
+  header{
+    padding: 4%;
+  }
+
+  /*Desktop Viewport: Style rules for nav area*/
+
+  nav li a{
+    padding: 0.5em 1.5em;
+  }
+
+  nav li a:hover{
+    color: #004d40;
+    background-color: #e5e9fc;
+  }
+
+}
+
+@media print{
+  body{
+    background-color: #fff;
+    color: #000;
+  }
+}
